@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <title>Ramiro Algozino | ramiro@algozino.com.ar</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+    
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+	<script src="jquery.translate.js"></script>
+
+	<script type="text/javascript">	
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-126958-8']);
+		_gaq.push(['_setDomainName', 'none']);
+		_gaq.push(['_setAllowLinker', true]);
+		_gaq.push(['_trackPageview']);
+		
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</head>
+<body class="ui container">
+	<div class="ui row">
+		<div class="ui compact small buttons">
+			<button id="lang-en" class="ui active button" onclick="translator.lang('en')"><i class="uk flag"></i> English</button>
+			<button id="lang-es" class="ui button" onclick="translator.lang('es')"><i class="argentina flag"></i>Español</button>
+			<button id="lang-it" class="ui button" onclick="translator.lang('it')"><i class="italy flag"></i>Italiano</button>
+		</div>
+	</div>
+	<div class="ui row">
+		<img class="ui centered medium circular image" src="https://s.gravatar.com/avatar/a0991f9a7ea425b4f5c19c7e08a5517d?s=600">
+		<h1 class="ui centered header">Ramiro Algozino
+			<div class="sub header">
+				<p><i class="graduation cap icon"></i> <span class="trn">Telecommunications Engineer</span> &mdash; <i class="paper plane outline icon"></i><span class="trn">Infrequent Traveller</span> &mdash; <i class="camera retro icon"></i><span class="trn">Amateur Photographer</span></p>
+				<a class="ui labeled basic primary icon button" href="mailto:ramiro@algozino.com.ar">
+					<i class="icon envelope"></i>
+					<span class="trn">SEND ME AN E-MAIL</span>
+				</a>
+			</div>
+		</h1>
+		<div class="ui horizontal divider">
+				<i class="angle double down icon"></i> <span class="trn">or find me on social media</span> <i class="angle double down icon"></i>
+		</div>
+		<div class="ui link cards">
+			<a class="ui centered card" href="https://linkedin.com/in/algozino">
+				<div class="ui slide masked reveal medium centered image">
+					<img src="images/linkedin.png" class="visible content">
+					<img src="images/linkedin_qr.jpg" class="hidden content">
+				</div>
+				<div class="content">
+					<div class="header trn">Connect on LinkedIn</div>
+				</div>
+			</a>
+			
+			<a class="ui centered card" href="https://twitter.com/ralgozino">
+				<img class="ui medium centered image" src="images/twitter.png"></img>
+				<div class="content">
+					<div class="header trn">Follow me on Twitter</div>
+				</div>
+			</a>
+			
+			<a class="ui centered card" href="https://www.instagram.com/ralgozino">
+				<img class="ui medium centered image" src="images/instagram.png"></img>
+				<div class="content">
+					<div class="header trn">Follow me on Instagram</div>
+				</div>
+			</a>
+			
+			<a class="ui centered card" href="https://www.flickr.com/ralgozino">
+				<img class="ui medium centered image" src="images/flickr.png"></img>
+				<div class="content">
+					<div class="header trn">My Photos on Flickr</div>
+				</div>
+			</a>
+			
+			
+			<a class="ui centered card" href="https://www.github.com/ralgozino">
+				<img class="ui medium centered image" src="images/github.png"></img>
+				<div class="content">
+					<div class="header trn">My GitHub Repo</div>
+				</div>
+			</a>
+			
+			<a class="ui centered card" href="https://algozino.com.ar/blog/">
+				<img class="ui medium centered image" src="images/blog.png"></img>
+				<div class="content">
+					<div class="header trn">Read my Blog</div>
+				</div>
+			</a>
+		
+		</div>
+	</div>
+	<div class="ui hidden divider"></div>
+	<div class="ui row">
+		<div class="ui center aligned segment">
+			<p class="trn">web page made using <a href="https://semantic-ui.com/">Semantic-UI</a></p>
+		</div>
+	</div>
+<script>
+var dict = {
+  "Telecommunications Engineer": {
+    es: "Ingeniero en Telecomunicaciones",
+	it: "Ingegnere delle Telecomunicazioni"
+  },
+  "Infrequent Traveller": {
+    es: "Viajero Infrecuente",
+	it: "Viaggiatore infrequente"
+  },
+  "Amateur Photographer": {
+    es: "Fotógrafo aficionado",
+	it: "Fotografo afizionado."
+  },
+  "web page made using <a href=\"https://semantic-ui.com/\">Semantic-UI</a>": {
+     es: "página web realizada con <a href=\"https://semantic-ui.com/\">Semantic-UI</a>",
+     it: "pagina fatta con <a href=\"https://semantic-ui.com/\">Semantic-UI</a>"
+  },
+  "Follow me on Twitter": {
+	  es: "Seguime en Twitter",
+	  it: "Seguirmi su Twitter"
+  },
+  "Follow me on Instagram": {
+	  es: "Seguime en Instagram",
+	  it: "Seguirmi su Instagram"
+  },
+  "Connect on LinkedIn": {
+	  es: "Conectemonos en LinkedIn",
+	  it: "Collegarci su LinkedIn"
+  },
+  "My Photos on Flickr": {
+	  es: "Mis fotos en Flickr",
+	  it: "Miei foto su Flickr"
+  },
+  "My GitHub Repo": {
+	  es: "Mi repo en GitHub",
+	  it: "Mio repo su GitHub"
+  },
+  "Read my Blog": {
+	  es: "Leeme en mi blog",
+	  it: "Leggermi sul mio blog"
+  },
+  "SEND ME AN E-MAIL": {
+	  es: "ENVIAME UN E-MAIL",
+	  it: "INVIAMI UNA MAIL"
+  },
+  "or find me on social media": {
+	  es: "O CONTACTAME EN LAS REDES",
+	  it: "SEGUIMI SUI SOCIAL"
+  }
+}
+
+var userLang = navigator.language || navigator.userLanguage;
+userLang = userLang.split('-')[0]
+if($('#lang-' + userLang).length) {
+    $('#lang-en').removeClass('active');
+    $('#lang-' + userLang).addClass('active');
+}
+
+var translator = $('body').translate({lang: userLang, t: dict}); //use English
+
+$('.buttons').on('click', '.button', function() {
+  $(this).addClass('active').siblings().removeClass('active');
+});
+
+</script>
+</body>
+</html>

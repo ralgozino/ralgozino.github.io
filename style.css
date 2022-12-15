@@ -85,6 +85,11 @@ nav {
     margin-bottom: 0.5em;
 }
 
+.subheader img {
+    height: 1em;
+    vertical-align: baseline;
+}
+
 .profile-image {
     /* I take the 600px from Gravatar and scale it down with CSS because the resolution is aweful when asking for the 300px version */
     max-width: 300px;

@@ -51,13 +51,18 @@
 		<script>
 			var userLang = navigator.language || navigator.userLanguage;
 			userLang = userLang.split('-')[0];
-			if (userLang.toLowerCase() === 'es') {
-				window.location.href = './es/';
-			}
-			if (userLang.toLowerCase() === 'it') {
-				window.location.href = './it/';
-			} else {
-				window.location.href = './en/';
+			switch (userLang.toLowerCase()) {
+				case 'es':
+					window.location.href = './es/';
+					console.log('redirecting to spanish version');
+					break;
+				case 'it':
+					window.location.href = './it/';
+					console.log('redirecting to italian version');
+					break;
+				default:
+					console.log('redirecting to english version');
+					window.location.href = './en/';
 			}
 		</script>
 	</body>

@@ -137,6 +137,13 @@
                     GitHub, AGPL</a></p>
         </footer>
     </main>
+  <script>
+    if (navigator.userAgent.includes("Ladybird")) {
+      console.log("🐞 Well hello friend! :^)");
+      var targetElement = document.getElementsByTagName("footer")[0];
+	    targetElement.innerHTML += "<p>🐞 Well hello friend! :^)</p>";
+    }
+  </script>
 </body>
 
 </html>

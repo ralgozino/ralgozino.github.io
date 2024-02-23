@@ -139,6 +139,7 @@ a.email-button:hover {
     text-transform: uppercase;
     display: table;
     white-space: nowrap;
+    width: 100%;
 }
 
 .separator::before {
@@ -147,7 +148,6 @@ a.email-button:hover {
     background-repeat: no-repeat;
     content: '';
     display: table-cell;
-    position: relative;
     width: 50%;
 }
 
@@ -157,7 +157,6 @@ a.email-button:hover {
     background-repeat: no-repeat;
     content: '';
     display: table-cell;
-    position: relative;
     width: 50%;
 }
 
